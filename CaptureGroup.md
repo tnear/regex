@@ -6,7 +6,7 @@ Example: Remove consecutive duplicated words when both words begin with 'he'.
 
 ```
 Input:       hello hello world
-Pattern:     he(\w+) he\1
+Pattern:     \bhe(\w+) he\1
 Replacement: he$1
 Result:      hello world
 ```
