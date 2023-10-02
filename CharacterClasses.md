@@ -8,7 +8,7 @@ Character classes, enclosed in `[]`, tell the regex engine to match one of the c
 The `-` character creates ranges. For example, `[a-zA-Z0-9]` matches alphanumeric.
 
 ### Negated character classes
-Use `^` as the first charcter in brackets to negate matches. To match anything which is *not* a digit, use `[^0-9]`.
+Use `^` as the first character in brackets to negate matches. To match anything which is *not* a digit, use `[^0-9]`.
 
 ### Escaping metacharacters
 The characters `]`, `^`, and `-` have special meaning inside character classes. To escape them, use `\`. For example, this matches any of the three metacharacters: `[\]\^\-]`.
