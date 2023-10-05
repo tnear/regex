@@ -14,3 +14,9 @@ Use `^` as the first character in brackets to negate matches. To match anything 
 The characters `]`, `^`, and `-` have special meaning inside character classes. To escape them, use `\`. For example, this matches any of the three metacharacters: `[\]\^\-]`.
 
 Additionally, the `-` character can be placed at the beginning or end of the character class list unescaped. This matches lowercase or `-`: `[a-z-]`.
+
+### Trim trailing whitespace
+```
+Pattern: [ \t]+$
+Replace: <none>
+```
