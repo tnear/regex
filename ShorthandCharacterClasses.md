@@ -1,8 +1,5 @@
 # Shorthand Character Classes
 
-https://www.regular-expressions.info/shorthand.html
-
-
 | Character | Meaning         | Description                    |
 |-----------|-----------------|--------------------------------|
 | `\d`      | `[0-9]`         | Matches a digit                |
@@ -21,3 +18,6 @@ The examples above can be capitalized to negate their meaning.
 | `\D`      | `[^0-9]`         | Anything but a digit              |
 | `\W`      | `[^A-Za-z0-9_]`  | Anything but a "word" character   |
 | `\S`      | `[^ \t\r\n\f]`   | Anything but whitespace character |
+
+## Resources
+- https://www.regular-expressions.info/shorthand.html

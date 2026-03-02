@@ -34,7 +34,7 @@ Output:       hello all
 ```
 
 ### Branch reset group
-The syntax `(?|...)` creates a branch reset group. The pattern `(?|(a)|(b)|(c))` creates one capture group with three alternatives. The capture group number `$1` holds `a`, `b`, or `c`. 
+The syntax `(?|...)` creates a branch reset group. The pattern `(?|(a)|(b)|(c))` creates one capture group with three alternatives. The capture group number `$1` holds `a`, `b`, or `c`.
 
 This is in contrast with the pattern `(a)|(b)|(c)` which creates three capture groups.
 
